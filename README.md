@@ -1,3 +1,11 @@
 # React Native FAQs
-## 1. How to set up VSCode and development environment?
-## 2. How to change app name?
+## How to set up VSCode and development environment?
+## How to change app name?
+1. Install react-native-rename from npm globally
+```bash
+npm install -g react-native-rename
+```
+2. Use react-native-rename to change the app name
+```bash
+react-native-name <newName>
+```
